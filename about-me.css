@@ -1,0 +1,23 @@
+body {
+    background-color: gray;
+}
+
+.yes {
+    background-color: aqua;
+    border-radius: 25%;
+    padding: 10px;
+    margin-left: 10;
+
+}
+
+.no {
+    background-color: red;
+    border-radius: 25%;
+    padding: 10px;
+    margin-left: 20px;
+}
+
+h4 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+

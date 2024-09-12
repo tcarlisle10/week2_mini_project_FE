@@ -1,0 +1,51 @@
+<a href="index.html">home</a>
+<link rel="stylesheet" href="">
+
+
+
+<section>
+    <h2>Contact Me</h2>
+    <p>Feel free to reach out to me through the form below, or directly via email at <strong>tyler@example.com</strong>.</p>
+
+    <form action="submit_form.php" method="POST">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" placeholder="Your Name" required><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" placeholder="Your Email" required><br><br>
+
+        <label for="subject">Subject:</label><br>
+        <input type="text" id="subject" name="subject" placeholder="Subject"><br><br>
+
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea><br><br>
+
+        <label for="contact-method">Preferred Method of Contact:</label><br>
+        <input type="radio" id="email-preference" name="contact-method" value="email" checked>
+        <label for="email-preference">Email</label>
+        <input type="radio" id="phone-preference" name="contact-method" value="phone">
+        <label for="phone-preference">Phone</label><br><br>
+
+        <label for="subscribe">Subscribe to Newsletter:</label><br>
+        <input type="checkbox" id="subscribe" name="subscribe" value="yes">
+        <label for="subscribe">Yes, sign me up!</label><br><br>
+
+        <label for="contact-date">Preferred Contact Date:</label><br>
+        <input type="date" id="contact-date" name="contact-date"><br><br>
+
+
+        <button type="submit">Send Message</button>
+    </form>
+</section>
+
+<section>
+    <h2>Find Me on Social Media</h2>
+    <ul>
+        <li><a href="https://www.linkedin.com/in/tyler-carlisle">LinkedIn</a></li>
+        <li><a href="https://www.twitter.com/tylercarlisle">Twitter</a></li>
+        <li><a href="https://www.instagram.com/tylercarlisle">Instagram</a></li>
+    </ul>
+</section>
+
+</body>
+</html>
